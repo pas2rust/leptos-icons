@@ -2,7 +2,10 @@
 name = "leptos-icons"
 version = "0.1.0"
 edition = "2021"
-description = ""
+description = "Darth rust"
+authors = ["Pas2Rust <pas2000@proton.me>"]
+homepage = "https://github.com/pas2rust/leptos-icons"
+repository = "https://github.com/pas2rust/leptos-icons"
 license = "MIT"
 
 [package.metadata.scripts]
