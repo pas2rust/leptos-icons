@@ -1,0 +1,17 @@
+[package]
+name = "leptos-icons"
+version = "0.1.0"
+edition = "2021"
+description = ""
+license = "MIT"
+
+[package.metadata.scripts]
+dev = "cargo fmt && cargo clippy && tailwindcss -i ./style.css -o ./tailwind.css && trunk serve --open"
+deploy = "cargo fmt && cargo package && cargo publish"
+clean = "cargo clean && rm -rf target && rm -rf dist && rm tailwind.css && rm -rf node_modules"
+
+[dependencies]
+leptos = { version = "0.6.5", features = ["csr", "nightly"] }
+
+[lib]
+path = "src/lib.rs"
