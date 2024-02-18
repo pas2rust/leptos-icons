@@ -30,7 +30,7 @@ pub enum Icon {
     Tiktok,
     SkullBones,
     Blood,
-    Trash
+    Trash,
 }
 
 pub trait IconTrait {
@@ -71,7 +71,7 @@ impl IconTrait for Icon {
             Tiktok,
             SkullBones,
             Blood,
-            Trash
+            Trash,
         ]
     }
 }
