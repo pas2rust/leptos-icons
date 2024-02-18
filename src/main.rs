@@ -2,7 +2,8 @@ use leptos::{leptos_dom::logging::console_warn, *};
 mod icons;
 use icons::{
     colors::{Color, ColorTrait},
-    icons::{Icon, IconTrait, Icons},
+    icon::{Icon, IconTrait},
+    icons::Icons,
 };
 
 fn copy_to_clipboard(text: String) {

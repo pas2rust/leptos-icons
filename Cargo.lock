@@ -576,7 +576,7 @@ dependencies = [
 
 [[package]]
 name = "leptos-font-icons"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "leptos",
 ]

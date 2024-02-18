@@ -534,12 +534,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.static {
+  position: static;
+}
+
 .m-2 {
   margin: 0.5rem;
 }
 
 .flex {
   display: flex;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .cursor-pointer {
@@ -566,6 +574,11 @@ video {
 
 .font-fira-code {
   font-family: Fira Code, monospace;
+}
+
+.text-\[\#782AB6\] {
+  --tw-text-opacity: 1;
+  color: rgb(120 42 182 / var(--tw-text-opacity));
 }
 
 .text-amber-100 {
